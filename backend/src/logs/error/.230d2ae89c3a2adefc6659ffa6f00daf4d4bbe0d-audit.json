@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "F:\\adil\\assignments\\chat-bot\\src\\logs\\error\\.230d2ae89c3a2adefc6659ffa6f00daf4d4bbe0d-audit.json",
+    "files": [
+        {
+            "date": 1699271518937,
+            "name": "F:\\adil\\assignments\\chat-bot\\src\\logs\\error\\2023-11-06.log",
+            "hash": "4209a6f826a780708a2988799e2529838b4d9ca31e828df2f88224a6765eb2fe"
+        },
+        {
+            "date": 1700892033629,
+            "name": "F:\\adil\\assignments\\chat-bot\\src\\logs\\error\\2023-11-25.log",
+            "hash": "cc109b85c3072af85468c0e3f5b7d150985a99d5331c5b6d6a1921e3ebfb0d4d"
+        }
+    ],
+    "hashType": "sha256"
+}

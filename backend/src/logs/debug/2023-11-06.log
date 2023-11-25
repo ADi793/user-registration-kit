@@ -1,0 +1,16 @@
+2023-11-06 17:22:52 info: =================================
+2023-11-06 17:22:52 info: ======= ENV: development =======
+2023-11-06 17:22:52 info: 🚀 App listening on the port 3000
+2023-11-06 17:22:52 info: =================================
+2023-11-06 17:22:52 info: [0mGET /_next/webpack-hmr [33m404[0m 11.633 ms - 156[0m
+2023-11-06 17:22:53 info: [0mGET /_next/webpack-hmr [33m404[0m 1.939 ms - 156[0m
+2023-11-06 17:22:58 info: [0mGET /_next/webpack-hmr [33m404[0m 1.369 ms - 156[0m
+2023-11-06 17:22:59 info: [0mGET /_next/webpack-hmr [33m404[0m 1.134 ms - 156[0m
+2023-11-06 17:23:04 info: [0mGET /_next/webpack-hmr [33m404[0m 0.943 ms - 156[0m
+2023-11-06 17:23:05 info: [0mGET /_next/webpack-hmr [33m404[0m 1.783 ms - 156[0m
+2023-11-06 17:23:10 info: [0mGET /_next/webpack-hmr [33m404[0m 1.954 ms - 156[0m
+2023-11-06 17:23:11 info: [0mGET /_next/webpack-hmr [33m404[0m 1.626 ms - 156[0m
+2023-11-06 17:23:16 info: [0mGET /_next/webpack-hmr [33m404[0m 1.394 ms - 156[0m
+2023-11-06 17:23:17 info: [0mGET /_next/webpack-hmr [33m404[0m 2.033 ms - 156[0m
+2023-11-06 17:23:22 info: [0mGET /_next/webpack-hmr [33m404[0m 1.848 ms - 156[0m
+2023-11-06 17:23:23 info: [0mGET /_next/webpack-hmr [33m404[0m 1.016 ms - 156[0m

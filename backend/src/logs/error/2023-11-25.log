@@ -1,0 +1,791 @@
+2023-11-25 11:31:04 error: uncaughtException: (no error message)
+MongooseServerSelectionError
+    at NativeConnection.Connection.openUri (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\connection.js:847:32)
+    at F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:351:10
+    at F:\adil\assignments\chat-bot\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:1149:10)
+    at Mongoose.connect (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:350:20)
+    at App.connectToDatabase (F:\adil\assignments\chat-bot\src\app.ts:52:12)
+    at new App (F:\adil\assignments\chat-bot\src\app.ts:27:10)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\server.ts:9:13)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-25 11:33:34 error: uncaughtException: swaggerJSDoc is not defined
+ReferenceError: swaggerJSDoc is not defined
+    at App.initializeSwagger (F:\adil\assignments\chat-bot\src\app.ts:82:19)
+    at new App (F:\adil\assignments\chat-bot\src\app.ts:28:10)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\server.ts:9:13)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at phase4 (F:\adil\assignments\chat-bot\node_modules\ts-node\src\bin.ts:649:14)
+    at bootstrap (F:\adil\assignments\chat-bot\node_modules\ts-node\src\bin.ts:95:10)
+    at main (F:\adil\assignments\chat-bot\node_modules\ts-node\src\bin.ts:55:10)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\node_modules\ts-node\src\bin.ts:800:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+2023-11-25 11:33:55 error: uncaughtException: this.initializeSwagger is not a function
+TypeError: this.initializeSwagger is not a function
+    at new App (F:\adil\assignments\chat-bot\src\app.ts:28:10)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\server.ts:9:13)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at phase4 (F:\adil\assignments\chat-bot\node_modules\ts-node\src\bin.ts:649:14)
+    at bootstrap (F:\adil\assignments\chat-bot\node_modules\ts-node\src\bin.ts:95:10)
+    at main (F:\adil\assignments\chat-bot\node_modules\ts-node\src\bin.ts:55:10)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\node_modules\ts-node\src\bin.ts:800:3)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+2023-11-25 11:34:30 error: uncaughtException: (no error message)
+MongooseServerSelectionError
+    at NativeConnection.Connection.openUri (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\connection.js:847:32)
+    at F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:351:10
+    at F:\adil\assignments\chat-bot\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:1149:10)
+    at Mongoose.connect (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:350:20)
+    at App.connectToDatabase (F:\adil\assignments\chat-bot\src\app.ts:49:12)
+    at new App (F:\adil\assignments\chat-bot\src\app.ts:25:10)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\server.ts:9:13)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-25 11:38:15 error: uncaughtException: (no error message)
+MongooseServerSelectionError
+    at NativeConnection.Connection.openUri (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\connection.js:847:32)
+    at F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:351:10
+    at F:\adil\assignments\chat-bot\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:1149:10)
+    at Mongoose.connect (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:350:20)
+    at App.connectToDatabase (F:\adil\assignments\chat-bot\src\app.ts:49:12)
+    at new App (F:\adil\assignments\chat-bot\src\app.ts:25:10)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\server.ts:9:13)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-25 11:46:38 error: uncaughtException: Invalid connection string
+MongoParseError: Invalid connection string
+    at parseConnectionString (F:\adil\assignments\chat-bot\node_modules\mongodb\lib\core\uri_parser.js:585:21)
+    at connect (F:\adil\assignments\chat-bot\node_modules\mongodb\lib\operations\connect.js:283:3)
+    at F:\adil\assignments\chat-bot\node_modules\mongodb\lib\mongo_client.js:284:5
+    at maybePromise (F:\adil\assignments\chat-bot\node_modules\mongodb\lib\utils.js:692:3)
+    at MongoClient.connect (F:\adil\assignments\chat-bot\node_modules\mongodb\lib\mongo_client.js:280:10)
+    at F:\adil\assignments\chat-bot\node_modules\mongoose\lib\connection.js:836:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\connection.js:832:19)
+    at F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:351:10
+    at F:\adil\assignments\chat-bot\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:1149:10)
+    at Mongoose.connect (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:350:20)
+    at App.connectToDatabase (F:\adil\assignments\chat-bot\src\app.ts:49:12)
+    at new App (F:\adil\assignments\chat-bot\src\app.ts:25:10)
+2023-11-25 11:49:11 error: uncaughtException: Invalid connection string
+MongoParseError: Invalid connection string
+    at parseConnectionString (F:\adil\assignments\chat-bot\node_modules\mongodb\lib\core\uri_parser.js:585:21)
+    at connect (F:\adil\assignments\chat-bot\node_modules\mongodb\lib\operations\connect.js:283:3)
+    at F:\adil\assignments\chat-bot\node_modules\mongodb\lib\mongo_client.js:284:5
+    at maybePromise (F:\adil\assignments\chat-bot\node_modules\mongodb\lib\utils.js:692:3)
+    at MongoClient.connect (F:\adil\assignments\chat-bot\node_modules\mongodb\lib\mongo_client.js:280:10)
+    at F:\adil\assignments\chat-bot\node_modules\mongoose\lib\connection.js:836:12
+    at new Promise (<anonymous>)
+    at NativeConnection.Connection.openUri (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\connection.js:832:19)
+    at F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:351:10
+    at F:\adil\assignments\chat-bot\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:1149:10)
+    at Mongoose.connect (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:350:20)
+    at App.connectToDatabase (F:\adil\assignments\chat-bot\src\app.ts:49:12)
+    at new App (F:\adil\assignments\chat-bot\src\app.ts:25:10)
+2023-11-25 12:41:47 error: uncaughtException: Cannot overwrite `User` model once compiled.
+OverwriteModelError: Cannot overwrite `User` model once compiled.
+    at Mongoose.model (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:549:13)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\models\countries.model.ts:26:27)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\services\countries.service.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+2023-11-25 12:41:59 error: uncaughtException: Cannot overwrite `User` model once compiled.
+OverwriteModelError: Cannot overwrite `User` model once compiled.
+    at Mongoose.model (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:549:13)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\models\countries.model.ts:26:27)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\services\countries.service.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+2023-11-25 12:46:30 error: uncaughtException: Cannot overwrite `User` model once compiled.
+OverwriteModelError: Cannot overwrite `User` model once compiled.
+    at Mongoose.model (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:549:13)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\models\countries.model.ts:26:27)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\services\countries.service.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+2023-11-25 12:47:26 error: uncaughtException: Cannot overwrite `User` model once compiled.
+OverwriteModelError: Cannot overwrite `User` model once compiled.
+    at Mongoose.model (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:549:13)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\models\countries.model.ts:26:27)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\services\countries.service.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+2023-11-25 12:49:45 error: uncaughtException: Cannot overwrite `User` model once compiled.
+OverwriteModelError: Cannot overwrite `User` model once compiled.
+    at Mongoose.model (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:549:13)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\models\countries.model.ts:26:27)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\services\countries.service.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+2023-11-25 12:50:32 error: uncaughtException: Cannot overwrite `User` model once compiled.
+OverwriteModelError: Cannot overwrite `User` model once compiled.
+    at Mongoose.model (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:549:13)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\models\countries.model.ts:26:27)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\services\countries.service.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+2023-11-25 12:50:47 error: uncaughtException: Cannot overwrite `User` model once compiled.
+OverwriteModelError: Cannot overwrite `User` model once compiled.
+    at Mongoose.model (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:549:13)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\models\countries.model.ts:26:27)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\services\countries.service.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+2023-11-25 12:51:42 error: uncaughtException: Cannot overwrite `User` model once compiled.
+OverwriteModelError: Cannot overwrite `User` model once compiled.
+    at Mongoose.model (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:549:13)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\models\countries.model.ts:26:27)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\services\countries.service.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+2023-11-25 12:51:55 error: uncaughtException: Router.use() requires a middleware function but got a undefined
+TypeError: Router.use() requires a middleware function but got a undefined
+    at Function.use (F:\adil\assignments\chat-bot\node_modules\express\lib\router\index.js:469:13)
+    at Function.<anonymous> (F:\adil\assignments\chat-bot\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (F:\adil\assignments\chat-bot\node_modules\express\lib\application.js:224:7)
+    at F:\adil\assignments\chat-bot\src\app.ts:65:16
+    at Array.forEach (<anonymous>)
+    at App.initializeRoutes (F:\adil\assignments\chat-bot\src\app.ts:64:12)
+    at new App (F:\adil\assignments\chat-bot\src\app.ts:27:10)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\server.ts:10:13)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+2023-11-25 12:52:10 error: uncaughtException: Cannot overwrite `User` model once compiled.
+OverwriteModelError: Cannot overwrite `User` model once compiled.
+    at Mongoose.model (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:549:13)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\models\countries.model.ts:26:27)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\services\countries.service.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+2023-11-25 12:52:16 error: uncaughtException: Cannot overwrite `User` model once compiled.
+OverwriteModelError: Cannot overwrite `User` model once compiled.
+    at Mongoose.model (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:549:13)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\models\countries.model.ts:26:27)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\services\countries.service.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+2023-11-25 12:54:13 error: uncaughtException: Cannot overwrite `User` model once compiled.
+OverwriteModelError: Cannot overwrite `User` model once compiled.
+    at Mongoose.model (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:549:13)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\models\countries.model.ts:26:27)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\services\countries.service.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+2023-11-25 12:54:17 error: uncaughtException: Cannot overwrite `User` model once compiled.
+OverwriteModelError: Cannot overwrite `User` model once compiled.
+    at Mongoose.model (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:549:13)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\models\countries.model.ts:26:27)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\services\countries.service.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+2023-11-25 12:54:29 error: uncaughtException: Cannot overwrite `User` model once compiled.
+OverwriteModelError: Cannot overwrite `User` model once compiled.
+    at Mongoose.model (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:549:13)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\models\countries.model.ts:26:27)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\services\countries.service.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+2023-11-25 12:55:12 error: uncaughtException: Cannot overwrite `User` model once compiled.
+OverwriteModelError: Cannot overwrite `User` model once compiled.
+    at Mongoose.model (F:\adil\assignments\chat-bot\node_modules\mongoose\lib\index.js:549:13)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\models\countries.model.ts:26:27)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\services\countries.service.ts:2:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+2023-11-25 13:26:03 error: uncaughtException: validateDOB is not defined
+ReferenceError: validateDOB is not defined
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\models\users.model.ts:55:16)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\services\auth.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-25 13:34:29 error: uncaughtException: exampleSchema is not defined
+ReferenceError: exampleSchema is not defined
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\models\users.model.ts:59:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\services\auth.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+2023-11-25 13:41:46 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m4[0m:[93m60[0m - [91merror[0m[90m TS1005: [0m'?' expected.
+
+[7m4[0m const userSchema: Schema = new Schema<User extends Document>({
+[7m [0m [91m                                                           ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m4[0m:[93m60[0m - [91merror[0m[90m TS1005: [0m'?' expected.
+
+[7m4[0m const userSchema: Schema = new Schema<User extends Document>({
+[7m [0m [91m                                                           ~[0m
+
+    at createTSError (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:863:19)
+    at F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\services\auth.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+2023-11-25 13:42:12 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m4[0m:[93m60[0m - [91merror[0m[90m TS1005: [0m'?' expected.
+
+[7m4[0m const userSchema: Schema = new Schema<User extends Document>({
+[7m [0m [91m                                                           ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m4[0m:[93m60[0m - [91merror[0m[90m TS1005: [0m'?' expected.
+
+[7m4[0m const userSchema: Schema = new Schema<User extends Document>({
+[7m [0m [91m                                                           ~[0m
+
+    at createTSError (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:863:19)
+    at F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\services\auth.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+2023-11-25 13:48:59 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m4[0m:[93m60[0m - [91merror[0m[90m TS1005: [0m'?' expected.
+
+[7m4[0m const userSchema: Schema = new Schema<User extends Document>({
+[7m [0m [91m                                                           ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m4[0m:[93m60[0m - [91merror[0m[90m TS1005: [0m'?' expected.
+
+[7m4[0m const userSchema: Schema = new Schema<User extends Document>({
+[7m [0m [91m                                                           ~[0m
+
+    at createTSError (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:863:19)
+    at F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\services\auth.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+2023-11-25 13:54:01 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m64[0m:[93m6[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m64[0m      = this.dateOfBirth.getFullYear()
+[7m  [0m [91m     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m64[0m:[93m6[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m64[0m      = this.dateOfBirth.getFullYear()
+[7m  [0m [91m     ~[0m
+
+    at createTSError (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:863:19)
+    at F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\services\auth.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+2023-11-25 13:54:10 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m64[0m:[93m6[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m64[0m      = this.dateOfBirth.getFullYear()
+[7m  [0m [91m     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/models/users.model.ts[0m:[93m64[0m:[93m6[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m64[0m      = this.dateOfBirth.getFullYear()
+[7m  [0m [91m     ~[0m
+
+    at createTSError (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:863:19)
+    at F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\services\auth.service.ts:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+2023-11-25 14:18:59 error: [POST] /api/users >> StatusCode:: 400, Message:: firstName should not be empty,firstName must be shorter than or equal to 255 characters,firstName must be longer than or equal to 2 characters,firstName must be a string, lastName should not be empty,lastName must be shorter than or equal to 255 characters,lastName must be longer than or equal to 2 characters,lastName must be a string, email should not be empty,email must be shorter than or equal to 255 characters,email must be longer than or equal to 5 characters,email must be an email, country should not be empty,country must be shorter than or equal to 255 characters,country must be longer than or equal to 2 characters,country must be a string, state should not be empty,state must be shorter than or equal to 255 characters,state must be longer than or equal to 2 characters,state must be a string, city should not be empty,city must be shorter than or equal to 255 characters,city must be longer than or equal to 2 characters,city must be a string, gender must be a valid enum value,gender should not be empty,gender must be shorter than or equal to 255 characters,gender must be longer than or equal to 2 characters,gender must be a string, dateOfBirth must be a Date instance,dateOfBirth should not be empty
+2023-11-25 14:21:03 error: [POST] /api/users >> StatusCode:: 400, Message:: lastName should not be empty,lastName must be shorter than or equal to 255 characters,lastName must be longer than or equal to 2 characters,lastName must be a string, email should not be empty,email must be shorter than or equal to 255 characters,email must be longer than or equal to 5 characters,email must be an email, country should not be empty,country must be shorter than or equal to 255 characters,country must be longer than or equal to 2 characters,country must be a string, state should not be empty,state must be shorter than or equal to 255 characters,state must be longer than or equal to 2 characters,state must be a string, city should not be empty,city must be shorter than or equal to 255 characters,city must be longer than or equal to 2 characters,city must be a string, gender must be a valid enum value,gender should not be empty,gender must be shorter than or equal to 255 characters,gender must be longer than or equal to 2 characters,gender must be a string, dateOfBirth must be a Date instance,dateOfBirth should not be empty
+2023-11-25 14:21:16 error: [POST] /api/users >> StatusCode:: 400, Message:: email should not be empty,email must be shorter than or equal to 255 characters,email must be longer than or equal to 5 characters,email must be an email, country should not be empty,country must be shorter than or equal to 255 characters,country must be longer than or equal to 2 characters,country must be a string, state should not be empty,state must be shorter than or equal to 255 characters,state must be longer than or equal to 2 characters,state must be a string, city should not be empty,city must be shorter than or equal to 255 characters,city must be longer than or equal to 2 characters,city must be a string, gender must be a valid enum value,gender should not be empty,gender must be shorter than or equal to 255 characters,gender must be longer than or equal to 2 characters,gender must be a string, dateOfBirth must be a Date instance,dateOfBirth should not be empty
+2023-11-25 14:21:17 error: [POST] /api/users >> StatusCode:: 400, Message:: email should not be empty,email must be shorter than or equal to 255 characters,email must be longer than or equal to 5 characters,email must be an email, country should not be empty,country must be shorter than or equal to 255 characters,country must be longer than or equal to 2 characters,country must be a string, state should not be empty,state must be shorter than or equal to 255 characters,state must be longer than or equal to 2 characters,state must be a string, city should not be empty,city must be shorter than or equal to 255 characters,city must be longer than or equal to 2 characters,city must be a string, gender must be a valid enum value,gender should not be empty,gender must be shorter than or equal to 255 characters,gender must be longer than or equal to 2 characters,gender must be a string, dateOfBirth must be a Date instance,dateOfBirth should not be empty
+2023-11-25 14:21:28 error: [POST] /api/users >> StatusCode:: 400, Message:: country should not be empty,country must be shorter than or equal to 255 characters,country must be longer than or equal to 2 characters,country must be a string, state should not be empty,state must be shorter than or equal to 255 characters,state must be longer than or equal to 2 characters,state must be a string, city should not be empty,city must be shorter than or equal to 255 characters,city must be longer than or equal to 2 characters,city must be a string, gender must be a valid enum value,gender should not be empty,gender must be shorter than or equal to 255 characters,gender must be longer than or equal to 2 characters,gender must be a string, dateOfBirth must be a Date instance,dateOfBirth should not be empty
+2023-11-25 14:21:38 error: [POST] /api/users >> StatusCode:: 400, Message:: state should not be empty,state must be shorter than or equal to 255 characters,state must be longer than or equal to 2 characters,state must be a string, city should not be empty,city must be shorter than or equal to 255 characters,city must be longer than or equal to 2 characters,city must be a string, gender must be a valid enum value,gender should not be empty,gender must be shorter than or equal to 255 characters,gender must be longer than or equal to 2 characters,gender must be a string, dateOfBirth must be a Date instance,dateOfBirth should not be empty
+2023-11-25 14:21:48 error: [POST] /api/users >> StatusCode:: 400, Message:: city should not be empty,city must be shorter than or equal to 255 characters,city must be longer than or equal to 2 characters,city must be a string, gender must be a valid enum value,gender should not be empty,gender must be shorter than or equal to 255 characters,gender must be longer than or equal to 2 characters,gender must be a string, dateOfBirth must be a Date instance,dateOfBirth should not be empty
+2023-11-25 14:22:17 error: [POST] /api/users >> StatusCode:: 400, Message:: Bad control character in string literal in JSON at position 2
+2023-11-25 14:22:29 error: [POST] /api/users >> StatusCode:: 400, Message:: gender must be a valid enum value,gender should not be empty,gender must be shorter than or equal to 255 characters,gender must be longer than or equal to 2 characters,gender must be a string, dateOfBirth must be a Date instance,dateOfBirth should not be empty
+2023-11-25 14:22:44 error: [POST] /api/users >> StatusCode:: 400, Message:: gender must be a valid enum value, dateOfBirth must be a Date instance,dateOfBirth should not be empty
+2023-11-25 14:22:52 error: [POST] /api/users >> StatusCode:: 400, Message:: dateOfBirth must be a Date instance,dateOfBirth should not be empty
+2023-11-25 14:22:54 error: [POST] /api/users >> StatusCode:: 400, Message:: dateOfBirth must be a Date instance,dateOfBirth should not be empty
+2023-11-25 14:23:28 error: [POST] /api/users >> StatusCode:: 400, Message:: dateOfBirth must be a Date instance
+2023-11-25 14:23:44 error: [POST] /api/users >> StatusCode:: 400, Message:: dateOfBirth must be a Date instance
+2023-11-25 14:25:44 error: [POST] /api/users >> StatusCode:: 400, Message:: firstName should not be empty,firstName must be shorter than or equal to 255 characters,firstName must be longer than or equal to 2 characters,firstName must be a string, lastName should not be empty,lastName must be shorter than or equal to 255 characters,lastName must be longer than or equal to 2 characters,lastName must be a string, email should not be empty,email must be shorter than or equal to 255 characters,email must be longer than or equal to 5 characters,email must be an email, country should not be empty,country must be shorter than or equal to 255 characters,country must be longer than or equal to 2 characters,country must be a string, state should not be empty,state must be shorter than or equal to 255 characters,state must be longer than or equal to 2 characters,state must be a string, city should not be empty,city must be shorter than or equal to 255 characters,city must be longer than or equal to 2 characters,city must be a string, gender must be a valid enum value,gender should not be empty,gender must be shorter than or equal to 255 characters,gender must be longer than or equal to 2 characters,gender must be a string, dateOfBirth must be a string,dateOfBirth should not be empty
+2023-11-25 14:31:27 error: [POST] /api/users >> StatusCode:: 400, Message:: firstName should not be empty,firstName must be shorter than or equal to 255 characters,firstName must be longer than or equal to 2 characters,firstName must be a string, lastName should not be empty,lastName must be shorter than or equal to 255 characters,lastName must be longer than or equal to 2 characters,lastName must be a string, email should not be empty,email must be shorter than or equal to 255 characters,email must be longer than or equal to 5 characters,email must be an email, country should not be empty,country must be shorter than or equal to 255 characters,country must be longer than or equal to 2 characters,country must be a string, state should not be empty,state must be shorter than or equal to 255 characters,state must be longer than or equal to 2 characters,state must be a string, city should not be empty,city must be shorter than or equal to 255 characters,city must be longer than or equal to 2 characters,city must be a string, gender must be a valid enum value,gender should not be empty,gender must be shorter than or equal to 255 characters,gender must be longer than or equal to 2 characters,gender must be a string, dateOfBirth must be a string,dateOfBirth should not be empty
+2023-11-25 14:32:40 error: [POST] /api/users >> StatusCode:: 400, Message:: firstName should not be empty,firstName must be shorter than or equal to 255 characters,firstName must be longer than or equal to 2 characters,firstName must be a string, lastName should not be empty,lastName must be shorter than or equal to 255 characters,lastName must be longer than or equal to 2 characters,lastName must be a string, email should not be empty,email must be shorter than or equal to 255 characters,email must be longer than or equal to 5 characters,email must be an email, country should not be empty,country must be shorter than or equal to 255 characters,country must be longer than or equal to 2 characters,country must be a string, state should not be empty,state must be shorter than or equal to 255 characters,state must be longer than or equal to 2 characters,state must be a string, city should not be empty,city must be shorter than or equal to 255 characters,city must be longer than or equal to 2 characters,city must be a string, gender must be a valid enum value,gender should not be empty,gender must be shorter than or equal to 255 characters,gender must be longer than or equal to 2 characters,gender must be a string, dateOfBirth must be a string,dateOfBirth should not be empty
+2023-11-25 14:33:42 error: [POST] /api/users >> StatusCode:: 400, Message:: firstName should not be empty, lastName should not be empty, email should not be empty, country should not be empty, state should not be empty, city should not be empty, gender must be a valid enum value, dateOfBirth must be a string
+2023-11-25 14:34:49 error: [POST] /api/users >> StatusCode:: 400, Message:: firstName should not be empty, lastName should not be empty, email should not be empty, country should not be empty, state should not be empty, city should not be empty, gender must be a valid enum value, dateOfBirth must be a string
+2023-11-25 14:36:26 error: [POST] /api/users >> StatusCode:: 400, Message:: firstName should not be empty
+2023-11-25 16:53:51 error: [POST] /api/users >> StatusCode:: 400, Message:: "[object Object]" is not valid JSON
+2023-11-25 16:54:29 error: [POST] /api/users >> StatusCode:: 400, Message:: city should not be empty
+2023-11-25 16:56:13 error: [POST] /api/users >> StatusCode:: 400, Message:: city should not be empty
+2023-11-25 17:07:51 error: [POST] /api/users >> StatusCode:: 409, Message:: You're email siddiquiadil685@gmail.com already exists
+2023-11-25 17:08:17 error: [POST] /api/users >> StatusCode:: 409, Message:: You're email siddiquiadil685@gmail.com already exists
+2023-11-25 17:09:45 error: [POST] /api/users >> StatusCode:: 409, Message:: You're email siddiquiadil685@gmail.com already exists
+2023-11-25 17:12:38 error: [POST] /api/users >> StatusCode:: 409, Message:: You're email siddiquiadil685@gmail.com already exists
+2023-11-25 17:15:43 error: [POST] /api/users >> StatusCode:: 409, Message:: You're email siddiquiadil685@gmail.com already exists
+2023-11-25 17:19:50 error: [POST] /api/users >> StatusCode:: 409, Message:: You're email siddiquiadil685@gmail.com already exists
+2023-11-25 17:20:47 error: [POST] /api/users >> StatusCode:: 409, Message:: You're email siddiquiadil685@gmail.com already exists
+2023-11-25 17:21:37 error: [POST] /api/users >> StatusCode:: 409, Message:: You're email siddiquiadil685@gmail.com already exists
+2023-11-25 17:25:51 error: [POST] /api/users >> StatusCode:: 409, Message:: You're email siddiquiadil685@gmail.com already exists
+2023-11-25 17:29:07 error: [POST] /api/users >> StatusCode:: 409, Message:: You're email siddiquiadil685@gmail.com already exists
+2023-11-25 17:29:16 error: [POST] /api/users >> StatusCode:: 409, Message:: You're email siddiquiadil685@gmail.com already exists
+2023-11-25 17:29:18 error: [POST] /api/users >> StatusCode:: 409, Message:: You're email siddiquiadil685@gmail.com already exists
+2023-11-25 17:29:24 error: [POST] /api/users >> StatusCode:: 409, Message:: You're email siddiquiadil685@gmail.com already exists
+2023-11-25 17:29:35 error: [POST] /api/users >> StatusCode:: 409, Message:: You're email siddiquiadil685@gmail.com already exists
+2023-11-25 17:30:43 error: [POST] /api/users >> StatusCode:: 409, Message:: You're email siddiquiadil685@gmail.com already exists
+2023-11-25 17:31:00 error: [POST] /api/users >> StatusCode:: 409, Message:: You're email siddiquiadil685@gmail.com already exists
+2023-11-25 17:31:11 error: [POST] /api/users >> StatusCode:: 409, Message:: You're email siddiquiadil685@gmail.com already exists
+2023-11-25 17:31:27 error: [POST] /api/users >> StatusCode:: 409, Message:: You're email siddiquiadil685@gmail.com already exists
+2023-11-25 18:07:08 error: [POST] /api/users >> StatusCode:: 409, Message:: You're email siddiquiadil685@gmail.com already exists
+2023-11-25 18:09:43 error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (F:\adil\assignments\chat-bot\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (F:\adil\assignments\chat-bot\node_modules\express\lib\router\index.js:521:19)
+    at UsersRoute.initializeRoutes (F:\adil\assignments\chat-bot\src\routes\users.route.ts:20:17)
+    at new UsersRoute (F:\adil\assignments\chat-bot\src\routes\users.route.ts:13:10)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\server.ts:10:40)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at phase4 (F:\adil\assignments\chat-bot\node_modules\ts-node\src\bin.ts:649:14)
+    at bootstrap (F:\adil\assignments\chat-bot\node_modules\ts-node\src\bin.ts:95:10)
+    at main (F:\adil\assignments\chat-bot\node_modules\ts-node\src\bin.ts:55:10)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\node_modules\ts-node\src\bin.ts:800:3)
+2023-11-25 18:10:06 error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (F:\adil\assignments\chat-bot\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (F:\adil\assignments\chat-bot\node_modules\express\lib\router\index.js:521:19)
+    at UsersRoute.initializeRoutes (F:\adil\assignments\chat-bot\src\routes\users.route.ts:20:17)
+    at new UsersRoute (F:\adil\assignments\chat-bot\src\routes\users.route.ts:13:10)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\server.ts:10:40)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at phase4 (F:\adil\assignments\chat-bot\node_modules\ts-node\src\bin.ts:649:14)
+    at bootstrap (F:\adil\assignments\chat-bot\node_modules\ts-node\src\bin.ts:95:10)
+    at main (F:\adil\assignments\chat-bot\node_modules\ts-node\src\bin.ts:55:10)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\node_modules\ts-node\src\bin.ts:800:3)
+2023-11-25 18:10:18 error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (F:\adil\assignments\chat-bot\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as post] (F:\adil\assignments\chat-bot\node_modules\express\lib\router\index.js:521:19)
+    at UsersRoute.initializeRoutes (F:\adil\assignments\chat-bot\src\routes\users.route.ts:20:17)
+    at new UsersRoute (F:\adil\assignments\chat-bot\src\routes\users.route.ts:13:10)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\server.ts:10:40)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+    at phase4 (F:\adil\assignments\chat-bot\node_modules\ts-node\src\bin.ts:649:14)
+    at bootstrap (F:\adil\assignments\chat-bot\node_modules\ts-node\src\bin.ts:95:10)
+    at main (F:\adil\assignments\chat-bot\node_modules\ts-node\src\bin.ts:55:10)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\node_modules\ts-node\src\bin.ts:800:3)
+2023-11-25 18:24:46 error: [POST] /api/users >> StatusCode:: 409, Message:: You're email siddiquiadil685@gmail.com already exists
+2023-11-25 18:26:39 error: [POST] /api/users >> StatusCode:: 409, Message:: You're email siddiquiadil685@gmail.com already exists
+2023-11-25 18:27:40 error: [POST] /api/users >> StatusCode:: 409, Message:: You're email siddiquiadil685@gmail.com already exists
+2023-11-25 20:41:50 error: uncaughtException: Cannot find module '@middlewares/auth.middleware'
+Require stack:
+- F:\adil\assignments\chat-bot\src\routes\auth.route.ts
+- F:\adil\assignments\chat-bot\src\server.ts
+Error: Cannot find module '@middlewares/auth.middleware'
+Require stack:
+- F:\adil\assignments\chat-bot\src\routes\auth.route.ts
+- F:\adil\assignments\chat-bot\src\server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (F:\adil\assignments\chat-bot\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (F:\adil\assignments\chat-bot\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:901:27)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\routes\auth.route.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\server.ts:2:1)
+2023-11-25 20:43:08 error: uncaughtException: Cannot find module '@middlewares/auth.middleware'
+Require stack:
+- F:\adil\assignments\chat-bot\src\routes\auth.route.ts
+- F:\adil\assignments\chat-bot\src\server.ts
+Error: Cannot find module '@middlewares/auth.middleware'
+Require stack:
+- F:\adil\assignments\chat-bot\src\routes\auth.route.ts
+- F:\adil\assignments\chat-bot\src\server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (F:\adil\assignments\chat-bot\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (F:\adil\assignments\chat-bot\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:901:27)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\routes\auth.route.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\server.ts:2:1)
+2023-11-25 20:44:13 error: uncaughtException: Cannot find module '@middlewares/auth.middleware'
+Require stack:
+- F:\adil\assignments\chat-bot\src\routes\auth.route.ts
+- F:\adil\assignments\chat-bot\src\server.ts
+Error: Cannot find module '@middlewares/auth.middleware'
+Require stack:
+- F:\adil\assignments\chat-bot\src\routes\auth.route.ts
+- F:\adil\assignments\chat-bot\src\server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (F:\adil\assignments\chat-bot\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (F:\adil\assignments\chat-bot\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:901:27)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\routes\auth.route.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\server.ts:2:1)
+2023-11-25 20:45:10 error: uncaughtException: Cannot find module '@middlewares/auth.middleware'
+Require stack:
+- F:\adil\assignments\chat-bot\src\routes\auth.route.ts
+- F:\adil\assignments\chat-bot\src\server.ts
+Error: Cannot find module '@middlewares/auth.middleware'
+Require stack:
+- F:\adil\assignments\chat-bot\src\routes\auth.route.ts
+- F:\adil\assignments\chat-bot\src\server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (F:\adil\assignments\chat-bot\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (F:\adil\assignments\chat-bot\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:901:27)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\routes\auth.route.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\server.ts:2:1)
+2023-11-25 20:47:51 error: uncaughtException: Cannot find module '@middlewares/auth.middleware'
+Require stack:
+- F:\adil\assignments\chat-bot\src\routes\auth.route.ts
+- F:\adil\assignments\chat-bot\src\server.ts
+Error: Cannot find module '@middlewares/auth.middleware'
+Require stack:
+- F:\adil\assignments\chat-bot\src\routes\auth.route.ts
+- F:\adil\assignments\chat-bot\src\server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (F:\adil\assignments\chat-bot\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at Function.Module._resolveFilename (F:\adil\assignments\chat-bot\node_modules\tsconfig-paths\src\register.ts:90:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:901:27)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\routes\auth.route.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module.m._compile (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Object.require.extensions.<computed> [as .ts] (F:\adil\assignments\chat-bot\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at Object.<anonymous> (F:\adil\assignments\chat-bot\src\server.ts:2:1)

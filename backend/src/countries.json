@@ -1,0 +1,65 @@
+[
+    {
+        "name": "India",
+        "states": [
+            {
+                "name": "Maharashtra",
+                "cities": ["Achalpur", "Osmanabad", "Mumbai", "Nagpur" ]
+            },
+            {
+                "name": "Uttar Pradesh",
+                "cities": ["Lucknow", "Noida", "Meerut", "Ghaziabad" ]
+            },
+            {
+                "name": "Haryana",
+                "cities": ["Gurugram", "Karnal", "Rohtak"]
+            },
+            {
+                "name": "National Capital Region",
+                "cities": ["Delhi", "Old Delhi"]
+            }
+        ]
+    },
+    {
+        "name": "United States",
+        "states": [
+            {
+                "name": "Alabama",
+                "cities": ["Montgomery", "Huntsville"]
+            },
+            {
+                "name": "Alaska",
+                "cities": ["Juneau", "Anchorage" ]
+            },
+            {
+                "name": "Arizona",
+                "cities": ["Phoenix"]
+            },
+            {
+                "name": "California",
+                "cities": ["Sacramento", "Los Angeles"]
+            }
+        ]
+    },
+    {
+        "name": "United Kingdom",
+        "states": [
+            {
+                "name": "England",
+                "cities": ["London"]
+            },
+            {
+                "name": "Northern Ireland",
+                "cities": ["Belfast"]
+            },
+            {
+                "name": "Scotland",
+                "cities": ["Edinburgh"]
+            },
+            {
+                "name": "Wales",
+                "cities": ["Cardiff"]
+            }
+        ]
+    }
+]
